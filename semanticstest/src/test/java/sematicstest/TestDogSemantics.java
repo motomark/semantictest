@@ -44,6 +44,10 @@ public class TestDogSemantics {
 		assertEquals("butch", d.getName());
 	}
 
+	/**
+	 * Unable to swap a for b because a java method doesn't allow. Pass by copy.
+	 * 
+	 */
 	@Test
 	public void testCannotSwapDogs() {
 
